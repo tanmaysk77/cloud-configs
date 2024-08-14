@@ -5,7 +5,7 @@ build:
   # Prefix properites for @configurationProperties Approach
   #Accounts is the name of prefix which we can use for all properties inside AccountsInfoDTOClass
 cards:
-  message: "Welcome to EazyBank accounts related local APIs "
+  message: "Welcome to EazyBank accounts related local System APIs "
   contactDetails:
     name: "John Doe - Developer"
     email: "john@eazybank.com"
