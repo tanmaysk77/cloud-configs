@@ -4,9 +4,9 @@ server:
 eureka:
   instance:
     hostname: localhost
-  client:
-    fetchRegistry: false
-    registerWithEureka: false
+  client:                                                                        
+    fetchRegistry: false                                                       # This is bydefault true we made it false as We do not want eureka to call any registered service 
+    registerWithEureka: false                                                  # We do not want to register eureka with itself in the registery
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    # Url for exposing to other services for resitering and for requesting a coonect
     
