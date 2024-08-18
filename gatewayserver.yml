@@ -1,4 +1,4 @@
-server:
+ilsserver:
   port: 8072
                                                                                                   
 eureka:
@@ -6,6 +6,6 @@ eureka:
     preferIpAddress: true
   client:
     registerWithEureka: true
-    fetchRegistry: true                                       # I am using the eureka properties to register the edge or gateway server into registery and also able to fetch registry to locate the microservices                       
+    fetchRegistry: true                                       # I am using the eureka properties to register the edge or gateway server into registery and also able to get the information related of registed services                      
     serviceUrl:
       defaultZone: "http://localhost:8070/eureka/"
