@@ -1,4 +1,4 @@
-ilsserver:
+server:
   port: 8072
                                                                                                   
 eureka:
